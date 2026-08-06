@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel e Tesoura</title>
+    <link rel="stylesheet" href="ppt.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>✊ Pedra, 📄 Papel e ✂️ Tesoura</h1>
+
+        <div class="placar">
+
+            <div>
+                <h2>Você</h2>
+                <span id="jogador">0</span>
+            </div>
+
+            <div>
+                <h2>Computador</h2>
+                <span id="pc">0</span>
+            </div>
+
+        </div>
+
+        <div class="botoes">
+
+            <button data-escolha="Pedra">✊ Pedra</button>
+            <button data-escolha="Papel">📄 Papel</button>
+            <button data-escolha="Tesoura">✂️ Tesoura</button>
+
+        </div>
+
+        <h2 id="resultado">Escolha uma opção!</h2>
+
+        <p id="jogadas"></p>
+
+        <button id="reset">Reiniciar</button>
+
+    </div>
+
+<script src="ppt.js"></script>
+</body>
+</html>
